@@ -1,0 +1,22 @@
+{
+	"dockerfiles": {
+		"Dockerfile": [
+			{
+				"name": "alpine",
+				"tag": "3.7",
+				"digest": "8421d9a84432575381bfabd248f1eb56f3aa21d9d7cd2511583c68c9b7511d10"
+			}
+		]
+	},
+	"composefiles": {
+		"docker-compose.yml": [
+			{
+				"name": "alpine",
+				"tag": "3.7",
+				"digest": "8421d9a84432575381bfabd248f1eb56f3aa21d9d7cd2511583c68c9b7511d10",
+				"dockerfile": "Dockerfile",
+				"service": "spectre-meltdown-checker"
+			}
+		]
+	}
+}
